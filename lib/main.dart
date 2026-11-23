@@ -28,9 +28,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar( //ส่วนหัวของหน้าแอพ
-          title: const Text('หน้าแรก'),
-          leading: Icon(Icons.settings),
-          actions: [
+          title: const Text('หน้าแรก'), // หัวข้อ
+          leading: Icon(Icons.home), // ซ้าย
+          actions: [ // ขวา
             Icon(Icons.notification_add),
             Icon(Icons.menu)
           ],
